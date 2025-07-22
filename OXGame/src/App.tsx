@@ -7,10 +7,11 @@ function App() {
   }
   return (
     //htmlなど画面の部分を書く場所
-    <div>
+    <div className="app-center">
       <h1>Hello OXGame!</h1>
       <br/>
-      <button onClick={handleClick}>クリックしねて</button>
+      <button onClick={handleClick}>クリックしねて！</button>
+      <button onClick={handleClick}>こっちでもいいよ！</button>
     </div>
   );
 }
